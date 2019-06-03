@@ -1,0 +1,57 @@
+html {
+
+}
+
+body 
+{
+    background: red;
+}
+
+.layout {
+    display:flex;
+    flex-direction: column;
+    min-height:100%;
+
+}
+
+.header {
+    height:100px;
+    background: green;
+}
+
+.content {
+    background: yellow;
+    flex-grow: 1;
+}
+
+
+.content.twocolumns {
+    background: purple;
+    display:flex;
+
+}
+
+_:-ms-fullscreen, :root .content.twocolumns {
+    min-height: 100vh;
+}
+
+.left {
+    background: gray;
+    width: 250px;
+
+}
+
+.right {
+    background:white;
+    flex-grow:1
+}
+
+.xl {
+    height:2000px;
+}
+
+.footer 
+{
+    height:100px;
+    background: blue;
+}
